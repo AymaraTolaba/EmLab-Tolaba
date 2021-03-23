@@ -1,0 +1,23 @@
+.container__section--equipo{
+    display: flex;
+        justify-content: space-between;
+}
+.container__div--equipo{
+    img{
+        height: auto;
+        width: 40rem;
+        padding-bottom: 2rem;
+    }
+    p{
+        width: 30rem;
+        height: auto;
+        margin: 0 2% 0 0;
+        padding-bottom: 1rem;
+    }
+    h3{
+        display: block;
+        width: 100%;
+        color: rgb(98, 80, 180);
+        padding-bottom: 1rem;
+    }
+}
