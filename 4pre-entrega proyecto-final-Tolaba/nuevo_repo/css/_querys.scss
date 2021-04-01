@@ -1,0 +1,621 @@
+@media (max-width:576px){
+    .container{
+        padding: 1rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .container__div--nosotros{
+        img{
+            height: auto;
+            width: 100%;
+            margin: 1rem 0 0 0;
+        }
+        p{
+            width: 100%;
+            height: auto;
+            font-size: 10px;
+            padding-top: 1rem;
+        }
+        h1{
+            display: block;
+            width: 100%;
+            color: rgb(98, 80, 180);
+            font-size: 14px;
+        }
+    }
+    .container__footer--redes{
+        display: flex;
+        height: auto;
+        width: 100%;
+        padding-right: .8rem;
+            h4{
+                display: flex;
+                height: auto;
+                width: 100%;
+                font-size: 14px;
+            }
+            p{
+                display: flex;
+                width: 100%;
+                height: auto;
+                margin-top: 0px;
+                font-size: 8px;
+            }
+    }
+    .container__footer--newsletter{
+        display: flex;
+        width: 100%;
+        padding: 0.8rem 0 0 0;
+            h4{
+                display: flex;
+                height: auto;
+                width: 100%;
+                font-size: 14px;
+            }
+            p{
+                display: flex;
+                width: 100%;
+                height: auto;
+                margin-top: 0px;
+                font-size: 8px;
+            }
+
+    }
+    .email{
+        font-size: 10px;
+    }
+    .container__footer{
+        display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: flex-start;        
+        padding: 1rem 1rem 1.6rem 1rem;
+        margin: 0;
+    }
+    .firts{
+        margin-top: 6rem;
+    }
+    .firts-diseño{
+        margin-top: 6rem;
+        padding-left: 3rem;
+        color: rgb(98, 80, 180)
+    }
+    .card-icon{
+        width: 80px;
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: .5rem;
+    }
+    .container__fondo--servicios{
+        padding: 1rem;
+    }
+    .container__section--equipo{
+        display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        margin-top: 5rem;
+    }
+    .container__div--equipo{
+        img{
+            height: auto;
+            width: 540px;
+            max-width: 100%;
+            padding-bottom: 2rem;
+        }
+        p{
+            width: 100%;
+            height: auto;
+            margin: auto;
+            padding-bottom: 1rem;
+            font-size: 14px;
+        }
+        h3{
+            display: block;
+            width: 100%;
+            color: rgb(98, 80, 180);
+            padding-bottom: 1rem;
+            font-size: 18px;
+        }
+    }
+    .datos{
+        display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+    }
+    .contact{
+        width: 100%;
+        margin: 6rem auto 1rem auto;
+        div{
+            padding-top: .5rem;
+            font-size: 12px;
+            .label{
+                font-weight: bold;
+                display: block;
+            }
+            .input{
+                width: 100%;
+            }
+            .texto{
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media (min-width: 577px) and (max-width: 768px){
+    .container{
+        padding: 1rem 0 0 0;
+    }
+    .container__div--nosotros{
+        img{
+            height: auto;
+            margin: 1rem 0 1rem 0;
+            width: 760px;
+            max-width: 100%;
+        }
+        p{
+            width: 100%;
+            height: auto;
+            margin: 0;
+            font-size: 12px;
+            padding-top: 1rem;
+        }
+        h1{
+            display: block;
+            width: 100%;
+            color: rgb(98, 80, 180);
+            font-size: 16px;
+        }
+    }
+    .container__footer--redes{
+        display: flex;
+        height: auto;
+        width: 100%;
+        padding-right: .8rem;
+            h4{
+                display: flex;
+                height: auto;
+                width: 100%;
+                font-size: 14px;
+            }
+            p{
+                display: flex;
+                width: 100%;
+                height: auto;
+                margin-top: 0px;
+                font-size: 8px;
+            }
+    }
+    .container__footer--newsletter{
+        display: flex;
+        width: 100%;
+        padding: 0.8rem 0 0 0;
+            h4{
+                display: flex;
+                height: auto;
+                width: 100%;
+                font-size: 14px;
+            }
+            p{
+                display: flex;
+                width: 100%;
+                height: auto;
+                margin-top: 0px;
+                font-size: 8px;
+            }
+        
+    }
+    .email{
+        font-size: 10px;
+    }
+    .container__footer{
+        display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+            align-items: flex-start;        
+        padding: 1rem 1.5rem 1.6rem 1.4rem;
+    }
+    .firts{
+        margin-top: 6rem;
+    }
+    .firts-diseño{
+        margin-top: 6rem;
+        padding-left: 3rem;
+        color: rgb(98, 80, 180)
+    }
+    .second{
+        margin-top: 6rem;
+    }
+    .card-icon{
+        width: 80px;
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: .5rem;
+    }
+    .container__fondo--servicios{
+        padding: 1rem;
+    }
+    .container__section--equipo{
+        display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        margin-top: 5rem;
+    }
+    .container__div--equipo{
+        img{
+            height: auto;
+            width: 740px;
+            max-width: 100%;
+            padding-bottom: 2rem;
+        }
+        p{
+            width: 100%;
+            height: auto;
+            margin: auto;
+            padding-bottom: 1rem;
+            font-size: 14px;
+        }
+        h3{
+            display: block;
+            width: 100%;
+            color: rgb(98, 80, 180);
+            padding-bottom: 1rem;
+            font-size: 18px;
+        }
+    }
+    .datos{
+        display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+        margin: 6rem auto 1rem auto;
+    }
+    .contact{
+        width: 100%;
+        padding-right: 2rem;
+        div{
+            padding-top: .5rem;
+            font-size: 12px;
+            .label{
+                font-weight: bold;
+                display: block;
+            }
+            .input{
+                width: 100%;
+            }
+            .texto{
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media (min-width: 769px) and (max-width: 992px){
+    .container__section--nosotros{
+        display: flex;
+            flex-direction: row;
+            flex-wrap:nowrap;
+            justify-content: space-between;
+        width: 900px;
+        max-width: 100%;
+        padding: 3rem 2rem 3rem 2rem;
+    }
+    .container__div--nosotros{
+        img{
+            height: auto;
+            margin: 1rem 0 1rem 0;
+            width: 900px;
+            max-width: 100%;
+        }
+        p{
+            width: 90%;
+            height: auto;
+            margin: 0;
+            font-size: 12px;
+            padding-top: 1rem;
+        }
+        h1{
+            display: block;
+            width: 100%;
+            color: rgb(98, 80, 180);
+            font-size: 16px;
+        }
+    }
+    .container__footer--redes{
+        display: flex;
+        height: auto;
+        width: 100%;
+        padding-right: .8rem;
+            h4{
+                display: flex;
+                height: auto;
+                width: 100%;
+                font-size: 14px;
+            }
+            p{
+                display: flex;
+                width: 100%;
+                height: auto;
+                margin-top: 0px;
+                font-size: 8px;
+            }
+    }
+    .container__footer--newsletter{
+        display: flex;
+        width: 100%;
+        padding: 0.8rem 0 0 0;
+            h4{
+                display: flex;
+                height: auto;
+                width: 100%;
+                font-size: 14px;
+            }
+            p{
+                display: flex;
+                width: 100%;
+                height: auto;
+                margin-top: 0px;
+                font-size: 8px;
+            }
+        
+    }
+    .email{
+        font-size: 10px;
+    }
+    .container__footer{
+        display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+            align-items: flex-start;        
+        padding: 1rem 1.5rem 1.6rem 1.4rem;
+    }
+    .col{
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+    .firts{
+        margin-top: 6rem;
+    }
+    .firts-diseño{
+        margin-top: 6rem;
+        padding-left: 3rem;
+        color: rgb(98, 80, 180)
+    }
+    .second{
+        margin-top: 6rem;
+    }
+    .card-icon{
+        width: 80px;
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: .5rem;
+    }
+    .container__fondo--servicios{
+        padding: 1rem;
+    }
+    .container__section--equipo{
+        display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+        margin: 5rem auto 0 auto;
+        padding: 3rem 2rem 3rem 2rem;
+        max-width: 940px;
+    }
+    .container__div--equipo{
+        img{
+            height: auto;
+            width: 940px;
+            max-width: 100%;
+            padding: 0;
+        }
+        p{
+            width: 100%;
+            height: auto;
+            margin: 0;
+            padding: 0 1rem 1rem 0;
+            font-size: 14px;
+        }
+        h3{
+            display: block;
+            width: 100%;
+            color: rgb(98, 80, 180);
+            padding-bottom: 1rem;
+            font-size: 20px;
+        }
+    }
+    .datos{
+        display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+        margin: 6rem auto 1rem auto;
+        padding: 0;
+    }
+    .contact{
+        width: 50%;
+        padding-right: 2rem;
+        div{
+            padding-top: .5rem;
+            font-size: 12px;
+            .label{
+                font-weight: bold;
+                display: block;
+            }
+            .input{
+                width: 100%;
+            }
+            .texto{
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media (min-width: 993px) and (max-width: 1200px){
+    .container__section--nosotros{
+        display: flex;
+            flex-direction: row;
+            flex-wrap:nowrap;
+            justify-content: space-around;
+        width: 1150px;
+        max-width: 100%;
+        padding: 5rem 2rem 3rem 2rem;
+    }
+    .container__div--nosotros{
+        img{
+            height: auto;
+            margin: 1rem 0 1rem 0;
+            width: 1100px;
+            max-width: 100%;
+        }
+        p{
+            width: 90%;
+            height: auto;
+            margin: 0;
+            font-size: 14px;
+            padding-top: 1rem;
+        }
+        h1{
+            display: block;
+            width: 100%;
+            color: rgb(98, 80, 180);
+            font-size: 20px;
+        }
+    }
+    .container__footer--redes{
+        display: flex;
+        height: auto;
+        width: 100%;
+        padding-right: .8rem;
+            h4{
+                display: flex;
+                height: auto;
+                width: 100%;
+                font-size: 16px;
+            }
+            p{
+                display: flex;
+                width: 100%;
+                height: auto;
+                margin-top: 0px;
+                font-size: 10px;
+            }
+    }
+    .container__footer--newsletter{
+        display: flex;
+        width: 100%;
+        padding: 0.8rem 0 0 0;
+            h4{
+                display: flex;
+                height: auto;
+                width: 100%;
+                font-size: 16px;
+            }
+            p{
+                display: flex;
+                width: 100%;
+                height: auto;
+                margin-top: 0px;
+                font-size: 10px;
+            }
+        
+    }
+    .email{
+        font-size: 12px;
+    }
+    .container__footer{
+        display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+            align-items: flex-start;        
+        padding: 1rem 2rem 1.6rem 2rem;
+    }
+    .col{
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+    .firts{
+        margin-top: 6rem;
+    }
+    .firts-diseño{
+        margin-top: 6rem;
+        padding-left: 3rem;
+        color: rgb(98, 80, 180)
+    }
+    .second{
+        margin-top: 6rem;
+    }
+    .card-icon{
+        width: 80px;
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: .5rem;
+    }
+    .container__fondo--servicios{
+        padding: 1rem;
+    }
+    .container__section--equipo{
+        display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+        margin: 5rem auto 0 auto;
+        padding: 3rem 2rem 3rem 2rem;
+        max-width: 1150px;
+    }
+    .container__div--equipo{
+        img{
+            height: auto;
+            width: 1150px;
+            max-width: 100%;
+            padding: 0;
+        }
+        p{
+            width: 100%;
+            height: auto;
+            margin: 0;
+            padding: 0 1rem 1rem 0;
+            font-size: 16x;
+        }
+        h3{
+            display: block;
+            width: 100%;
+            color: rgb(98, 80, 180);
+            padding-bottom: 1rem;
+            font-size: 22px;
+        }
+    }
+    .datos{
+        display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+        margin: 6rem auto 1rem auto;
+        padding: 0;
+        width: 100%;
+    }
+    .contact{
+        padding-right: 2rem;
+        width: 50%;
+        div{
+            padding-top: .5rem;
+            font-size: 12px;
+            .label{
+                font-weight: bold;
+                display: block;
+            }
+            .input{
+                width: 100%;
+            }
+            .texto{
+                width: 100%;
+            }
+        }
+    }
+}
